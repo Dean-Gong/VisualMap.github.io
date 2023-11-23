@@ -1,0 +1,29 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightseagreen;
+}
+
+#date-selector {
+    position: fixed; /* 或者 'absolute'，如果你的页面不滚动 */
+    right: 1300px; /* 距离页面右侧的距离 */
+    bottom: 30px; /* 距离页面底部的距离 */
+    z-index: 1000; /* 确保时间选择器显示在其他元素之上 */
+    border: 3px inset #ffe3cd; /* 设置边框颜色和大小 */
+    border-radius: 10px; /* 圆角边框 */
+    font-size: 15px; /* 字体大小 */
+    color: #11659a; /*字体颜色*/
+    font-family: Arial, sans-serif; /* 字体类型 */
+    transition: background-color 0.3s, border-color 0.3s; /* 过渡效果 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 阴影效果 */
+    background-color: #eef; /* 鼠标悬停时的背景颜色 */
+
+}
+
+
